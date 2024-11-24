@@ -36,7 +36,7 @@ const About_The_Embassy=()=>{
   return (
     <div className={styles.components}>
       <Text style={{textAlign:"center",fontWeight:"bold",fontSize:"55px",marginBottom:"18px"}}>L'ambassade</Text>
-      <div className={styles.eachblock} style={{width:"100%", alignContent:"center",alignSelf:"center"}} wrap={"wrap"} >
+      <div className={styles.eachblock} style={{width:"100%", alignContent:"center",alignSelf:"center"}}>
 
         <div style={{width:"100%"}}>
           <Text>L’ambassade du Burkina Faso à New Delhi est la mission diplomatique du Burkina Faso En Inde. L’ambassade est située dans le quartier ‘’Vasant Vihar’’ et est sous la direction de son excellence monsieur l'ambassadeur Boniface Some </Text>
@@ -52,7 +52,7 @@ const About_The_Embassy=()=>{
           <Text>Email : ambassadeburkinafasoindia@gmail.com</Text>
         </div>
         <div style={{width:"100%",display:"grid"}}>
-        <iframe style={{justifySelf:"center"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.2463468585483!2d77.1595170749541!3d28.559512687393838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d577a03c69b%3A0xa0b574164f76fdc6!2sEmbassy%20of%20Burkina%20Faso%20in%20Delhi!5e1!3m2!1sen!2sus!4v1731570652492!5m2!1sen!2sus" width="400" height="500"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe style={{justifySelf:"center"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.2463468585483!2d77.1595170749541!3d28.559512687393838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d577a03c69b%3A0xa0b574164f76fdc6!2sEmbassy%20of%20Burkina%20Faso%20in%20Delhi!5e1!3m2!1sen!2sus!4v1731570652492!5m2!1sen!2sus" width="400" height="500"  allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
       </div>

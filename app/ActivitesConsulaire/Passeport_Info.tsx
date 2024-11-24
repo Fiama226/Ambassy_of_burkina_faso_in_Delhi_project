@@ -11,7 +11,7 @@ const Passeport_Info=()=>{
     return (
       <div className={styles.activitesconsulaire}>
         <div style={{width:"100%"}}>
-        {data.map(item=><div key={item.id}><p >{item.title}</p><ul> {item.list_of_documents.map(i=><li key={i?.id}> {i.name}</li>)} </ul> </div>)}
+        {data.map(item=><div key={item.id}><p >{item.title}</p><ul> {item.list_of_documents.map(i=><li key={i?.id}> {i?.name}</li>)} </ul> </div>)}
 
         <p style={{fontWeight:"bold"}}>En cas de perte :</p>
         <p>joindre une déclaration de perte établie à l’Ambassade ou au Consulat Général, pour un renouvellement avant trois (03) mois de la date d'expiration, joindre le passeport, pour éviter les rejets pour fichier non retrouvé par les archivistes de la Division de la migration de la Police, il serait judicieux de joindre aux pièces sus citées, les copies légalisées de l’extrait de naissance et du certificat de nationalité burkinabè</p>

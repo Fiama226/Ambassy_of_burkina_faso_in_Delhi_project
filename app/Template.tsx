@@ -73,7 +73,7 @@ const Menu_items=()=>{
   )
 } 
 
-export function Template({children}) {
+export function Template({ children }: { children: any }) {
   const [opened, { toggle }] = useDisclosure();
   const [openMenu, setOpenMenu] = useState(false);
   const [scroll, scrollTo] = useWindowScroll();

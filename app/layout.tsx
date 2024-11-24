@@ -5,8 +5,8 @@ import { theme } from '../theme';
 import {Template} from './Template'
 
 export const metadata = {
-  title: 'Mantine Next.js template',
-  description: 'I am using Mantine with Next.js!',
+  title: 'Ambassade du burkina faso a New delhi',
+  description: "le site web de l'Ambassade du burkina faso a New delhi",
 };
 
 export default function RootLayout({ children }: { children: any }) {
