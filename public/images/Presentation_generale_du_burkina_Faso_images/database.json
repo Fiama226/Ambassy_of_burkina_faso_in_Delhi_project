@@ -1,0 +1,123 @@
+{
+    // design a MongoDB database structure with some dummy data for a service marketplace
+    "users":{
+        "id": "ObjectId()",
+        "userType": "service provider or customer",
+        "profile" :{
+            "password": "hashed_password",
+            "firstName": "John",
+            "lastName": "Doe",
+            "contacts" :{
+                "email": "john.doe@email.com",
+                "Whatsapp number":"",
+                "phonenumber1": "",
+                "phonenumber2": "",
+                "phonenumber3": ""},
+            "files_location":"",
+            "likes":["",""],
+            "dislikes":["",""],
+            "favorites":["",""],
+            "reviews":["",""],
+            "ratings": [5,5,5,5,5],
+            "comments":["",""],
+            "tags":["",""],
+            "notifications":["",""],
+            "last_seen": "ISODate("2024-01-01")",
+            "last_login": "ISODate("2024-01-01")",
+            "status": "active",
+            "discussions":["",""],
+            "orders":["",""],
+            "payments":["",""],
+            "services":["",""],
+
+
+        "personal_informations":{
+            "dob": "",
+            "gender": "male",
+            "bio": "I am a professional photographer.",
+            "languages": ["francais", "Moore", "Dioula"],
+            "experience": "10 years",
+            "skills": ["maconnerie", "painture", "mecannique"],
+            "education": "Baccalaureat , licence, BTP, ",
+            "address": {
+                "street": "123 Main St",
+                "city": "New York",
+                "state": "NY",
+                "zipCode": "10001",
+                "country": "USA"}},
+
+        "createdAt": "ISODate("2024-01-01")",
+
+  }
+
+
+            },
+    "reviews" : {
+        "_id": "ObjectId()",
+        "bookingId": "Reference to bookings collection", 
+        "customerId": "Reference to users collection", 
+        "providerId": "Reference to serviceProviders collection", 
+        "rating": "5",
+        "comment": "Excellent service! Very professional and punctual.",
+        "images": ["link to image 1 if any", "link to image 2 if any"],
+        "createdAt": "ISODate("2024-03-16")"
+  },
+  "discussions": {
+    "_id": "",
+    "bookingId": "Reference to bookings collection", 
+    "senderId": "Reference to users collection", 
+    "receiverId": "Reference to users collection", 
+    "messages":{["id":"","content":"","status": "sent, delivered, read"]}, 
+    "createdAt": ISODate("2024-03-15T09:50:00Z")
+  },
+  "payments" : {
+    "_id": "",
+    "bookingId": "Reference to bookings collection", 
+    "customerId": "Reference to users collection", 
+    "providerId": "Reference to serviceProviders collection", 
+    "amount": "",
+    "status": "pending, completed, refunded, failed", 
+    "paymentMethod": "Orange money , cash ,...",
+    "transactionId": "tx_123456789",
+    "createdAt": ""
+  },
+  "bookings" : {
+    "_id": "",
+    "customerId": "Reference to users collection", 
+    "providerId": "Reference to serviceProviders collection", 
+    "serviceId": "Reference to services collection",  
+    "status": "pending, confirmed, in-progress, completed, cancelled", // 
+    "scheduledDate": "",
+    "scheduledTime": "",
+    "estimated_duration": " 2 hours",
+
+
+    "location": {
+      "street": "",
+      "city": "",
+      "google_map_link": ""
+    },
+    "price": {
+      "baseAmount": 75.00,
+      "materials": 25.00,
+      "total": 100.00
+    },
+    "description": "",
+    "createdAt": "",
+    "updatedAt": ""
+  },
+  "services" : {
+    "_id": "ObjectId()",
+    "providerId": ["Reference to users collection"],  // Reference to the service provider who offers this service
+    "illustration_image_url": "",
+    "category": "Home Maintenance",
+    "subCategory": "Plumbing",
+    "name": "Plumbing Repair",
+    "description": "General plumbing repair and maintenance services",
+    "basePrice": 75.00,
+    "priceUnit": "hour", // or "fixed"
+    "requiredQualifications": ["Plumber License"],
+    "estimatedDuration": 2, // hours
+    "createdAt": ISODate("2024-01-01")
+  }
+}

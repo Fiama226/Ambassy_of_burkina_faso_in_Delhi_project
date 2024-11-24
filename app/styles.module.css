@@ -1,0 +1,13 @@
+.control {
+  display: block;
+  padding-right:16px ;
+  border-radius: var(--mantine-radius-md);
+  margin: 10px;
+  font-weight: 500;
+  background-color: brown;
+
+  @mixin hover {
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+    
+  }
+}
