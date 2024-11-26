@@ -30,7 +30,7 @@ const Time_date = () => {
       </Text>
 
       <div style={{ display: 'flex', flexDirection: 'row' }}>
-        <div style={{ width: '50%',height:"100%",margin:"10px" }}>
+        <div style={{ width: '50%',height:"100%",margin:"10px",backgroundColor:"#deb71d",padding:"10px",borderRadius:"5px" }}>
           <div style={{width:"100%",height:"75%"}}>
           <Image
             src="/images/Flag_of_India.svg"
@@ -41,8 +41,9 @@ const Time_date = () => {
           />
           </div>
 
-          <Text style={{ textAlign: 'center', margin: '0.25vw' }}>New Delhi,India</Text>
-          <Text style={{ textAlign: 'center', margin: '0.25vw' }}>
+          <Text style={{ textAlign: 'center', margin: '10px' }}>New Delhi</Text>
+          <Text style={{ textAlign: 'center', margin: '10px' }}>India</Text>
+          <Text style={{ textAlign: 'center', margin: '10px' }}>
             {CurrentTime.toLocaleDateString('en-US', {
               weekday: 'long',
               year: 'numeric',
@@ -51,7 +52,7 @@ const Time_date = () => {
               timeZone: 'Asia/Kolkata',
             })}
           </Text>
-          <p style={{ textAlign: 'center', margin: '0.25vw' }}>
+          <p style={{ textAlign: 'center', margin: '10px' }}>
             {CurrentTime.toLocaleString('de-DE', {
               hour: '2-digit',
               minute: 'numeric',
@@ -63,7 +64,7 @@ const Time_date = () => {
           </p>
         </div>
 
-        <div style={{ width: '50%',height:"100%",margin:"10px"}}>
+        <div style={{ width: '50%',height:"100%",margin:"10px",backgroundColor:"#deb71d",padding:"10px",borderRadius:"5px"}}>
           <div style={{width:"100%",height:"75%"}}>
             <Image
               src="/images/Flag_Burkina_Faso.jpg"
@@ -73,8 +74,9 @@ const Time_date = () => {
               style={{ width: '100%', height: '100%' }}
             />
           </div>
-          <p style={{ textAlign: 'center', margin: '0.25vw' }}>Ouagadougou,Burkina Faso</p>
-          <p style={{ textAlign: 'center', margin: '0.25vw' }}>
+          <Text style={{ textAlign: 'center', margin: '10px',wordBreak:"break-all" }}>Ouagadougou,</Text>
+          <Text style={{ textAlign: 'center', margin: '10px',wordBreak:"break-all" }}>Burkina Faso</Text>
+          <p style={{ textAlign: 'center', margin: '10px' }}>
             {CurrentTime.toLocaleDateString('en-US', {
               weekday: 'long',
               year: 'numeric',
@@ -83,7 +85,7 @@ const Time_date = () => {
               timeZone: 'Africa/Ouagadougou',
             })}
           </p>
-          <p style={{ textAlign: 'center', margin: '0.25vw' }}>
+          <p style={{ textAlign: 'center', margin: '10px' }}>
             {CurrentTime.toLocaleString('en-US', {
               hour: '2-digit',
               minute: 'numeric',

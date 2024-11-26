@@ -13,38 +13,50 @@ const data = [
   {
     image:'/images/Presentation_generale_du_burkina_Faso_images/Sculpture_sur_granit_de_Laongo.jpg',
     title: 'Sculpture sur granit de Laongo',
-    category: 'nature',
+    category: 'Sculpture',
     link: 'https://www.ontb.bf/visites/sites-touristiques/sculpture-sur-granit-de-laongo'
   },
   {
     image:
-      'https://images.unsplash.com/photo-1559494007-9f5847c49d94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
-    title: 'Hawaii beaches review: better than you think',
-    category: 'beach',
+      '/images/Presentation_generale_du_burkina_Faso_images/les_dômes_de_Fabedougou.jpg',
+    title: 'les dômes de Fabédougou',
+    category: 'Relief',
   },
   {
     image:
-      'https://images.unsplash.com/photo-1608481337062-4093bf3ed404?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
-    title: 'Mountains at night: 12 best locations to enjoy the view',
-    category: 'nature',
+      '/images/Presentation_generale_du_burkina_Faso_images/Parc_national_de_Deux_Balés.jpg',
+    title: 'Parc national de Deux Balés',
+    category: 'Parc animalier',
   },
   {
     image:
-      'https://images.unsplash.com/photo-1507272931001-fc06c17e4f43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
-    title: 'Aurora in Norway: when to visit for best experience',
-    category: 'nature',
+      '/images/Presentation_generale_du_burkina_Faso_images/poterie.jpg',
+    title: 'poterie',
+    category: 'Artisanat',
   },
   {
     image:
-      'https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
-    title: 'Best places to visit this winter',
-    category: 'tourism',
+      '/images/Presentation_generale_du_burkina_Faso_images/Fespaco.jpg',
+    title: 'Fespaco',
+    category: 'Evènements',
   },
   {
     image:
-      'https://images.unsplash.com/photo-1582721478779-0ae163c05a60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
-    title: 'Active volcanos reviews: travel at your own risk',
-    category: 'nature',
+      '/images/Presentation_generale_du_burkina_Faso_images/Vannerie.jpg',
+    title: 'Vannerie',
+    category: 'Artisanat',
+  },
+  {
+    image:
+      '/images/Presentation_generale_du_burkina_Faso_images/Fasodanfani.jpg',
+    title: 'Faso danfani',
+    category: 'Artisanat',
+  },
+  {
+    image:
+      '/images/Presentation_generale_du_burkina_Faso_images/GrandeMosquéedeBobDioulasso.jpg',
+    title: 'La Grande Mosquée de Bobo-Dioulasso.jpg',
+    category: 'Architecture',
   },
 ];
 

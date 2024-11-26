@@ -6,7 +6,7 @@ import styles from '../responsive.module.css'
 const AmbassadorComponent = () => {
     return (
       <div className={styles.components} >
-                  <Text fw={700} td="underline" ta="center"  style={{marginBottom:"50px",fontSize:"55px"}} >
+                  <Text fw={700} td="underline" ta="center"  style={{marginBottom:"50px",fontSize:"55px",wordBreak:"break-all"}} >
             Mot de L'ambassadeur
           </Text>
       <div className={styles.eachblock}      >

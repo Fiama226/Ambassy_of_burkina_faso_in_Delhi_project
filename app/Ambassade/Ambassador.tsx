@@ -7,7 +7,7 @@ import styles from '../responsive.module.css'
 function Ambassador() {
   return (
     <div className={styles.components}>
-            <p style={{fontWeight:"bold", fontSize:"50px",textAlign:"center"}}>L'ambassadeur</p>
+            <p style={{fontWeight:"bold", fontSize:"50px",textAlign:"center",wordBreak:"break-all"}}>L'ambassadeur</p>
     <div className={styles.eachblock}>
         <div style={{width:"100%",display:"flex",alignItems:"center",justifyContent:"center",flexWrap:"wrap",height:"100%"}}> <Image  src={"/images/burkina_ambassador.jpeg"} width={350} height={500} alt='' style={{width:"90%",height:"90%"}}/></div>
         <div style={{width:"100%",height:"100%"}}>

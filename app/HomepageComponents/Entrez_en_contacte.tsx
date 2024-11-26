@@ -22,15 +22,15 @@ function Entrez_en_contacte() {
     
       return (
         <div className={styles.components}>
-        <form onSubmit={form.onSubmit(() => {})} style={{width:"50%",alignSelf:"center",padding:"32px"}}>
+        <form onSubmit={form.onSubmit(() => {})} style={{width:"100%",alignSelf:"center",padding:"32px"}}>
           <Title
             order={2}
             size="55px"
-            style={{ fontFamily: 'Greycliff CF, var(--mantine-font-family)' }}
+            style={{ fontFamily: 'Greycliff CF, var(--mantine-font-family)',wordBreak:"break-all" }}
             fw={900}
             ta="center"
           >
-            Entrer en Contacte
+            Contactez nous
           </Title>
     
           <SimpleGrid cols={{ base: 1, sm: 2 }} mt="xl">
@@ -72,7 +72,7 @@ function Entrez_en_contacte() {
     
           <Group justify="center" mt="xl">
             <Button type="submit" size="md">
-              Send message
+              Envoyez le message
             </Button>
           </Group>
         </form>

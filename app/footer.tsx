@@ -15,7 +15,7 @@ const Footer_header =()=>{
     color='red'
     label={ 
       <>
-        <Image src={"/images/3d_map_burkina_faso.png"} alt='' width={100} height={100} />
+        <Image src={"/images/3d_map_burkina_faso.png"} alt='' width={100} height={100}  />
        
     </>
 
@@ -28,9 +28,9 @@ const Footer_header =()=>{
 const BurkinaFaso_Armorial_Image=()=>{
 
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',padding:"25px",backgroundColor:"#ffec99",borderRadius:"10px",flexDirection:"column",width:"100%" }}>
-        <Image src={"/images/burkina_faso_armorial.jpg"} alt='' width={200} height={300} />
-        <Text style={{textAlign:"center"}}>Embassy of Burkina Faso in India</Text>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',padding:"25px",backgroundColor:"#C1E899",borderRadius:"10px",flexDirection:"column",width:"100%" }}>
+      <Image src={"/images/burkina_faso_armorial.jpg"} alt='' width={200} height={300} style={{height:"90%",width:"100%"}} />
+        <Text style={{textAlign:"center"}}>Ambassade du Burkina Faso en Inde</Text>
         </div>
     )
 }
@@ -38,7 +38,7 @@ const BurkinaFaso_Armorial_Image=()=>{
 const Copyright_message =()=>{
 
   return (
-    <Box style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '1rem'}}>
+    <Box style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '1rem',backgroundColor:"red",height:"30px",marginTop:"30px"}}>
       <p>© Copyright 2024 - Embassy of Burkina Faso, New delhi, India</p>
     </Box>
   )
@@ -47,9 +47,9 @@ const Copyright_message =()=>{
 const Contact_us=()=>{
 
   return(
-    <div style={{padding:"25px",backgroundColor:"#ffec99",borderRadius:"10px",width:"100%" }}>
-      <Text style={{fontSize:"30px",fontWeight:"bold",marginBottom:"10px"}}>contacts informations</Text>
-      <Text style={{display:"flex",flexDirection:"row"}}> <FaPhoneFlip size={15} /> <Text  >   +91-11- 2614 0630</Text>      </Text>
+    <div style={{padding:"25px",backgroundColor:"#C1E899",borderRadius:"10px",width:"100%" }}>
+      <Text style={{fontSize:"30px",fontWeight:"bold",marginBottom:"10px",wordBreak:"break-all"}}>contacts informations</Text>
+      <Text style={{display:"flex",flexDirection:"row"}}> <FaPhoneFlip size={15} />+91-11- 2614 0630</Text>
       <Text style={{display:"flex",flexDirection:"row",flexWrap:"wrap",wordBreak:"break-all"}} > <FaEnvelope /> ambassadeburkinafasoindia@gmail.com </Text>
       <Text  style={{display:"flex",flexDirection:"row"}}>  <FaLocationPin />F-2/4, Vasant Vihar, New Delhi- </Text>      
     </div>
@@ -58,7 +58,7 @@ const Contact_us=()=>{
 
 const Operational_hours =()=>{
   return(
-    <div style={{padding:"25px",backgroundColor:"#ffec99",borderRadius:"10px",width:"100%" }}>
+    <div style={{padding:"25px",backgroundColor:"#C1E899",borderRadius:"10px",width:"100%" }}>
       <Text style={{fontWeight:"bold",fontSize:"30px",marginBottom:"10px"}}>Heures d'ouverture</Text>
       <Text><b>Lundi-Jeudi </b></Text>
       <Text>De 9h à 17h</Text>
@@ -109,7 +109,7 @@ const Useful_links=()=>{
   const rendered_component=data.map(item=> <a key={item.id} href={item.link}><Text>{item.name}</Text></a> )
 
   return (
-    <div style={{display:"flex",flexDirection:"column",backgroundColor:"#ffec99",borderRadius:"10px",padding:"25px",width:"100%" }}>
+    <div style={{display:"flex",flexDirection:"column",backgroundColor:"#C1E899",borderRadius:"10px",padding:"25px",width:"100%" }}>
     <Text style={{fontSize:"30px",fontWeight:"bold",textAlign:"center"}}> Liens utiles </Text>
     <div style={{display:"flex",flexDirection:"row"}}>
     <div style={{listStyle:"none"}}>

@@ -9,6 +9,7 @@ import Image from 'next/image';
 import { useWindowScroll } from '@mantine/hooks';
 import styles from "./responsive.module.css"
 import { useMediaQuery } from '@mantine/hooks';
+
 const Mobile_menu=()=>{
   const [opened, { open, close }] = useDisclosure(false);
 
