@@ -26,6 +26,8 @@ export default function RootLayout({ children }: { children: any }) {
           name="viewport"
           content=" initial-scale=1, width=device-width"
         />
+        <meta property="og:image" content="/burkina_faso_armorial.png" />
+
       </head>
       <body >
         <MantineProvider theme={theme}>< Template children={children} /> </MantineProvider>
