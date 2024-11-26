@@ -59,7 +59,7 @@ const Contact_us=()=>{
 const Operational_hours =()=>{
   return(
     <div style={{padding:"25px",backgroundColor:"#C1E899",borderRadius:"10px",width:"100%" }}>
-      <Text style={{fontWeight:"bold",fontSize:"30px",marginBottom:"10px"}}>Heures d'ouverture</Text>
+      <Text style={{fontWeight:"bold",fontSize:"30px",marginBottom:"10px",whiteSpace:"break-spaces",wordBreak:"break-all"}}>Heures d'ouverture</Text>
       <Text><b>Lundi-Jeudi </b></Text>
       <Text>De 9h à 17h</Text>
       <Text><b>Vendredi</b></Text>

@@ -83,7 +83,7 @@ export function Template({ children }: { children: any }) {
       <div style={{position:"sticky",backgroundColor:"#740938",top:"0px",zIndex:100,height:"70px",alignItems:"center",display:"flex"}}>
 
 
-            <Text style={{textAlign:"left"}} className={styles.title}>Ambassade du burkina faso a Delhi</Text>
+            <Text style={{textAlign:"left",fontSize:"35px",fontWeight:"bold"}} className={styles.title} >Ambassade du burkina faso a Delhi</Text>
     
             <div className={styles.menubigscreen}>
             
