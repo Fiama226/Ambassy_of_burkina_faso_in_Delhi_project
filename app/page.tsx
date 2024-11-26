@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import { Divider,Text } from '@mantine/core';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
-import { Welcome } from '../components/Welcome/Welcome';
 import Soutient_patrioptique from "./HomepageComponents/Soutient_patrioptique";
 import AmbassadorComponent from "./HomepageComponents/AmbassadorComponent";
 import News_component from "./HomepageComponents/News_component";

@@ -1,7 +1,6 @@
 "use client"
-import { AppShell, Burger, Group, UnstyledButton,Text, Button,Drawer } from '@mantine/core';
+import { UnstyledButton,Text,Drawer } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import classes from "./styles.module.css";
 import Footer from "./footer"
 import React from 'react';
 import { useState } from 'react';
